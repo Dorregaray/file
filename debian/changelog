@@ -1,3 +1,10 @@
+file (1:5.45-3build2) noble; urgency=medium
+
+  * testing.sh script added
+
+ -- Tomasz Rostanski <tomasz@rostanski.pl>  Fri, 24 Apr 2025 08:40:22 +0000
+
+
 file (1:5.45-3build1) noble; urgency=medium
 
   * No-change rebuild for CVE-2024-3094
