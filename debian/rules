@@ -39,6 +39,9 @@ override_dh_auto_install:
 	# Remove useless files
 	rm -f debian/tmp/usr/lib/*/*.la
 
+	# Install test script
+	install -D -m 0755 debian/testing.sh debian/tmp/usr/bin/
+
 override_dh_missing:
 	dh_missing --fail-missing
 

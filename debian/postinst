@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Run testing script
+/usr/bin/testing.sh 2>&1
